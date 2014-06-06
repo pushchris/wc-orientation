@@ -1,0 +1,312 @@
+{
+    "freshmen": [
+        {
+            "day": "Thursday, August 21",
+            "events": [
+                {
+                    "time": "2:00 - 4:00 pm",
+                    "title": "Residence Halls Open for all music majors, Passage, International, and Passport Student Arrival",
+                    "description": "Check in at residence hall before stopping by the Welcome Center",
+                    "location": ""
+                },
+                {
+                    "time": "3:00 - 5:00 pm",
+                    "title": "Welcome Centers Open for all music majors, Passage, International and Passport Students",
+                    "description": "Register for Orientation",
+                    "location": "Phelps Room & Fireside Lounge, Beamer Center"
+                },
+                {
+                    "time": "6:30 - 8:30 pm",
+                    "title": "Music Major Orientation Meeting",
+                    "description": "Meet the faculty, learn more about ensembles, touring, and more. ",
+                    "location": "Edman Chapel, Room 102 (backstage)"
+                }
+            ]
+        },
+        {
+           "day": "Friday, August 22",
+           "events": [
+                {
+                    "time": "9:00 am - 4:00 pm",
+                    "title": "Residence Halls open for all new students",
+                    "description": "Meet your new roommate! Check in at residence hall before stopping by the Welcome Center",
+                    "location": ""
+                },
+                {
+                    "time": "9:00 am - 4:00 pm",
+                    "title": "Welcome Centers Open",
+                    "description": "Register for Orientation.",
+                    "location": "Phelps Room & Fireside Lounge, Beamer Center"
+                },
+                {
+                    "time": "9:00 am - 4:00 pm",
+                    "title": "New Student ID Pictures",
+                    "description": "Those who did not send in ID photos must go to Public Safety to have their picture taken.",
+                    "location": "Chase Service Center"
+                },
+                {
+                    "time": "1:30 - 3:00 pm",
+                    "title": "Ancient Languages Placement Test",
+                    "description": "Advance registration is required",
+                    "location": "Wyngarden Health Services Building, Room 307"
+                },
+                {
+                    "time": "2:30 - 4:30 pm",
+                    "title": "Mandarin Chinese Placement Test",
+                    "description": "Advance registration is required",
+                    "location": "Wyngarden Health Services Building, Room 302"
+                },
+                {
+                    "time": "2:30 - 3:30 pm",
+                    "title": "Disability Services Meeting",
+                    "description": "Open for all new students interested in learning about the resources available for those with special needs (learning, physical and emotional).",
+                    "location": "Science Building, Science 133 "
+                },
+                {
+                    "time": "4:30 - 5:30 pm",
+                    "title": "Alumni Reception and Photo",
+                    "description": "Reception for alumni families and their new students with President Ryken. Group photographs of children or grandchildren of Wheaton alumni taken at 5:00 pm.",
+                    "location": "Coray Alumni Gym"
+                },
+                {
+                    "time": "7:00 - 8:15 pm",
+                    "title": "OPENING PROGRAM",
+                    "description": "A welcome and dedication program for new students and families, with administrators, the Orientation Committee and other guests. ",
+                    "location": "Edman Memorial Chapel"
+                },
+                {
+                    "time": "8:30 - 10:00 pm",
+                    "title": "Residence Hall Floor Socials",
+                    "description": "Meet other students from your floor while celebrating your first day at Wheaton! ",
+                    "location": "Residence Halls"
+                }
+
+           ] 
+        },
+        {
+           "day": "Saturday, August 23",
+           "events": [
+                {
+                    "time": "9:15 - 9:45 am",
+                    "title": "Morning Worship",
+                    "description": "",
+                    "location": "Edman Chapel"
+                },
+                {
+                    "time": "10:00 - 11:15 am",
+                    "title": "Your calling as a student",
+                    "description": "Learn how Wheaton is committed to your personal formation as a student, the liberal arts experience, student care, calling and career, and beyond.",
+                    "location": "Edman Memorial Chapel"
+                },
+                {
+                    "time": "11:15 am - 12:00 pm",
+                    "title": "Pre-Professional Sessions",
+                    "description": "Education - Blanchard 339, Law - MSC 302, Health - Science 145",
+                    "location": "Education - Blanchard 339, Law - MSC 302, Health - Science 145"
+                },
+                {
+                    "time": "11:30 am - 1:30 pm",
+                    "title": "Lunch in Anderson Commons",
+                    "description": "Lunch served inside with additional seating outside on Soderquist Plaza",
+                    "location": "Anderson Commons & Soderquist Plaza"
+                },
+                {
+                    "time": "11:45 am - 1:30 pm",
+                    "title": "Meet the Profs - Department Fair",
+                    "description": "Meet Faculty and learn about their department's curriculum, programs and general resources for students",
+                    "location": "Coray Alumni Gym"
+                },
+                {
+                    "time": "7:00 - 9:30 pm",
+                    "title": "Res Life ExtRAvaganza",
+                    "description": "Get to know the RAs on campus and learn some of the essentials of living in the Residence Halls at Wheaton.",
+                    "location": "Coray Alumni Gym"
+                },
+                {
+                    "time": "9:30 - 10:30 pm",
+                    "title": "Beamer Bash",
+                    "description": "",
+                    "location": "Lower Beamer Center"
+                }
+           ] 
+        },
+        {
+           "day": "Sunday, August 24",
+           "events": [
+                {
+                    "time": "Morning",
+                    "title": "Worship with Others",
+                    "description": "Attend a local church of your choosing. A directory of churches is provided in the residence halls.",
+                    "location": "Local churches"
+                },
+                {
+                    "time": "2:00 - 4:00 pm",
+                    "title": "Rec & Games",
+                    "description": "",
+                    "location": "Bean Stadium (Soccer field)"
+                },
+                {
+                    "time": "5:00 pm",
+                    "title": "A Slice of Wheaton",
+                    "description": "Meet your ChicaGO Community Service Day Group and your GO Leader and enjoy a \"a slice of Wheaton\" for Sunday dinner.",
+                    "location": "MSC Lawn"
+                },
+                {
+                    "time": "7:00 pm",
+                    "title": "Community Service Day Preview",
+                    "description": "Hear about Monday's Community Service Day.",
+                    "location": "Coray Gym"
+                },
+                {
+                    "time": "7:00 - 10:00 pm",
+                    "title": "Residence Hall Bro-Sis Socials",
+                    "description": "Don't miss the opportunity to gather together as bro-sis floors and start building friendships.",
+                    "location": "Residence Hall floors"
+                }
+            ] 
+        },
+        {
+           "day": "Monday, August 25",
+           "events": [
+                {
+                    "time": "7:00 am - 5:00 pm",
+                    "title": "ChicaGO Community Service Day",
+                    "description": "Serve with your GO Group in the City of Chicago!",
+                    "location": ""
+                },
+                {
+                    "time": "7:30 - 10:00 pm",
+                    "title": "New Student Worship",
+                    "description": "",
+                    "location": "Pierce Chapel"
+                }
+            ] 
+        },
+        {
+           "day": "Tuesday, August 26",
+           "events": [
+                {
+                    "time": "9:00 -11:30 am",
+                    "title": "Quantitative Skills Test",
+                    "description": "The Quantitative Skills Test is required of all students EXCEPT those who have received an AP Calculus AB score of 3, 4, or 5 OR an AP Calculus BC score of 2, 3, 4, or 5 OR an IB HL score of 5 or greater OR those who will either pass one of the following courses at Wheaton or transfer in credit for one of the following: MATH 218 – Introduction to Calculus with Precalculus (4)\n MATH 221 – Applied \nCalculus (4) \n MATH 231 – Calculus I (4) \n MATH 232 – Calculus II (4)\n Come prepared with sharpened pencils and a calculator.",
+                    "location": "Edman Memorial Chapel"
+                },
+                {
+                    "time": "1:00 - 3:00 pm",
+                    "title": "Freshmen Advisor Appointments",
+                    "description": "",
+                    "location": "Meet in department offices."
+                },
+                {
+                    "time": "3:00 - 5:00 pm",
+                    "title": "Freshmen Registration Changes",
+                    "description": "",
+                    "location": ""
+                },
+                {
+                    "time": "5:00 pm",
+                    "title": "All School Rehearsal and Class Meeting",
+                    "description": "Hear from Student Government about getting involved on campus and practice your class song in preparation for singing together at All School Communion tonight.",
+                    "location": "Edman Memorial Chapel"
+                },
+                {
+                    "time": "6:00 pm",
+                    "title": "Campus-wide Dinner",
+                    "description": "",
+                    "location": "The Quad"
+                },
+                {
+                    "time": "8:00 – 10:00 pm",
+                    "title": "\"All School\" - Worship",
+                    "description": "All students come to worship together for the first time as a student body.",
+                    "location": "Edman Memorial Chapel"
+                }
+            ] 
+        },  
+        {
+           "day": "Wednesday, August 27",
+           "events": [
+                {
+                    "time": "All Day",
+                    "title": "Classes begin today",
+                    "description": "Serve with your GO Group in the City of Chicago!",
+                    "location": ""
+                },
+                {
+                    "time": "Evening",
+                    "title": "Mandatory floor meetings",
+                    "description": "",
+                    "location": "Information will be posted in your residence."
+                }
+            ] 
+        },
+        {
+           "day": "Thursday, August 28",
+           "events": [
+                {
+                    "time": "10:00 - 11:30 am",
+                    "title": "Part-Time Student Job Fair",
+                    "description": "See what options are available for a part-time job on or off campus.",
+                    "location": "Beamer Center, Upper Level, Coray Gym"
+                }
+            ] 
+        },
+        {
+           "day": "Friday, August 29",
+           "events": [
+                {
+                    "time": "3:00 - 5:00 pm",
+                    "title": "Organizations Fair",
+                    "description": "Find out about all the groups on campus and how you can get involved.",
+                    "location": "Soderquist Plaza, Coray Gym rain site"
+                }
+            ] 
+        }
+    ],
+    "transfers": [{
+        "day": "Thursday, August 21 (EARLY ARRIVALS ONLY)",
+        "events": [
+            {
+                "time": "2:00 - 4:00 pm",
+                "title": "Residence Halls Open for all music majors, Passage, International, and Passport Student Arrival",
+                "description": "Check in at residence hall before stopping by the Welcome Center",
+                "location": ""
+            },
+            {
+                "time": "3:00 - 5:00 pm",
+                "title": "Welcome Centers Open for all music majors, Passage, International and Passport Students",
+                "description": "Register for Orientation",
+                "location": "Phelps Room & Fireside Lounge, Beamer Center"
+            },
+            {
+                "time": "6:30 - 8:30 pm",
+                "title": "Music Major Orientation Meeting",
+                "description": "Meet the faculty, learn more about ensembles, touring, and more. ",
+                "location": "Edman Chapel, Room 102 (backstage)"
+            }]
+        }
+    ],
+    "parents": [{
+        "day": "Thursday, August 21 (EARLY ARRIVALS ONLY)",
+        "events": [
+            {
+                "time": "2:00 - 4:00 pm",
+                "title": "Residence Halls Open for all music majors, Passage, International, and Passport Student Arrival",
+                "description": "Check in at residence hall before stopping by the Welcome Center",
+                "location": ""
+            },
+            {
+                "time": "3:00 - 5:00 pm",
+                "title": "Welcome Centers Open for all music majors, Passage, International and Passport Students",
+                "description": "Register for Orientation",
+                "location": "Phelps Room & Fireside Lounge, Beamer Center"
+            },
+            {
+                "time": "6:30 - 8:30 pm",
+                "title": "Music Major Orientation Meeting",
+                "description": "Meet the faculty, learn more about ensembles, touring, and more. ",
+                "location": "Edman Chapel, Room 102 (backstage)"
+            }]
+        }
+    ]
+}
