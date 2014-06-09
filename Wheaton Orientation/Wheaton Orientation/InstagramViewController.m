@@ -54,19 +54,24 @@
 
 - (void)loadMedia
 {
-    [[InstagramEngine sharedEngine] getMediaForUser:@"15328905" count:8 maxId:nil withSuccess:^(NSArray *media, InstagramPaginationInfo *paginationInfo) {
+    [[InstagramEngine sharedEngine] getMediaForUser:@"1346625062" count:8 maxId:nil withSuccess:^(NSArray *media, InstagramPaginationInfo *paginationInfo) {
         [mediaArray removeAllObjects];
         [mediaArray addObjectsFromArray:media];
         [self.collectionView reloadData];
+        if ([mediaArray count] < 8) {
+            [[InstagramEngine sharedEngine] getMediaForUser:@"282198537" count:(8-[mediaArray count]) maxId:nil withSuccess:^(NSArray *media, InstagramPaginationInfo *paginationInfo) {
+                [mediaArray addObjectsFromArray:media];
+                [self.collectionView reloadData];
+            } failure:^(NSError *error) {
+                NSLog(@"Load Popular Media Failed");
+                NSLog(@"%@", error);
+            }];
+        }
     } failure:^(NSError *error) {
         NSLog(@"Load Popular Media Failed");
         NSLog(@"%@", error);
     }];
     
-//    [[InstagramEngine sharedEngine] searchUsersWithString:@"chrisanderson93" withSuccess:^(NSArray *media, InstagramPaginationInfo *paginationInfo) {
-//        NSLog(@"%@", ((InstagramUser *)[media objectAtIndex:0]).Id);
-//    } failure:^(NSError *error) {
-//    }];
 }
 
 
@@ -99,7 +104,6 @@
     InstagramMedia *media = mediaArray[indexPath.item];
     vc.liftedImageView = cell.imageView;
     vc.fullResolution = media.standardResolutionImageURL;
-    NSLog(@"%@", media.standardResolutionImageURL);
     [self presentViewController:vc animated:NO completion:nil];
 }
 
