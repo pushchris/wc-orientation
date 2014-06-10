@@ -102,7 +102,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		612C8FD5193F8156009DEDCC /* Wheaton Orientation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wheaton Orientation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		612C8FD5193F8156009DEDCC /* Orientation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orientation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		612C8FD8193F8156009DEDCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		612C8FDA193F8156009DEDCC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		612C8FDC193F8156009DEDCC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -302,7 +302,7 @@
 		612C8FD6193F8156009DEDCC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				612C8FD5193F8156009DEDCC /* Wheaton Orientation.app */,
+				612C8FD5193F8156009DEDCC /* Orientation.app */,
 				612C8FF9193F8156009DEDCC /* Wheaton OrientationTests.xctest */,
 			);
 			name = Products;
@@ -681,7 +681,7 @@
 			);
 			name = "Wheaton Orientation";
 			productName = "Wheaton Orientation";
-			productReference = 612C8FD5193F8156009DEDCC /* Wheaton Orientation.app */;
+			productReference = 612C8FD5193F8156009DEDCC /* Orientation.app */;
 			productType = "com.apple.product-type.application";
 		};
 		612C8FF8193F8156009DEDCC /* Wheaton OrientationTests */ = {
@@ -986,7 +986,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wheaton Orientation/Wheaton Orientation-Prefix.pch";
 				INFOPLIST_FILE = "Wheaton Orientation/Wheaton Orientation-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Orientation;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1000,7 +1000,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wheaton Orientation/Wheaton Orientation-Prefix.pch";
 				INFOPLIST_FILE = "Wheaton Orientation/Wheaton Orientation-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Orientation;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
