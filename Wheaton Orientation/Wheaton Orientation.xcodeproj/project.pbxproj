@@ -88,7 +88,7 @@
 		61604E3A194230B50059FD9C /* InstagramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61604E39194230B50059FD9C /* InstagramViewController.m */; };
 		61604E40194234500059FD9C /* InstaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61604E3F194234500059FD9C /* InstaCell.m */; };
 		61604E5A19423D0D0059FD9C /* GGFullScreenImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61604E4E19423D0D0059FD9C /* GGFullScreenImageViewController.m */; };
-		61AD4197193FBA5300F8A280 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61AD4196193FBA5300F8A280 /* Crashlytics.framework */; };
+		6268CA0C1949465C00F8B9BD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6268CA0B1949465C00F8B9BD /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -262,6 +262,7 @@
 		61604E4D19423D0D0059FD9C /* GGFullScreenImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGFullScreenImageViewController.h; sourceTree = "<group>"; };
 		61604E4E19423D0D0059FD9C /* GGFullScreenImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGFullScreenImageViewController.m; sourceTree = "<group>"; };
 		61AD4196193FBA5300F8A280 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		6268CA0B1949465C00F8B9BD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,9 +270,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6268CA0C1949465C00F8B9BD /* MobileCoreServices.framework in Frameworks */,
 				612C8FDB193F8156009DEDCC /* CoreGraphics.framework in Frameworks */,
 				612C8FDD193F8156009DEDCC /* UIKit.framework in Frameworks */,
-				61AD4197193FBA5300F8A280 /* Crashlytics.framework in Frameworks */,
 				612C8FD9193F8156009DEDCC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +312,7 @@
 		612C8FD7193F8156009DEDCC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6268CA0B1949465C00F8B9BD /* MobileCoreServices.framework */,
 				61AD4196193FBA5300F8A280 /* Crashlytics.framework */,
 				612C8FD8193F8156009DEDCC /* Foundation.framework */,
 				612C8FDA193F8156009DEDCC /* CoreGraphics.framework */,
@@ -673,7 +675,6 @@
 				612C8FD1193F8156009DEDCC /* Sources */,
 				612C8FD2193F8156009DEDCC /* Frameworks */,
 				612C8FD3193F8156009DEDCC /* Resources */,
-				61AD4195193FBA3400F8A280 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -711,6 +712,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Chris Anderson";
 				TargetAttributes = {
+					612C8FD4193F8156009DEDCC = {
+						DevelopmentTeam = YL8VV6WZ2N;
+					};
 					612C8FF8193F8156009DEDCC = {
 						TestTargetID = 612C8FD4193F8156009DEDCC;
 					};
@@ -763,22 +767,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		61AD4195193FBA3400F8A280 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = "./Crashlytics.framework/run 53504b96166ef8084a958b012520e4ea08bcbffc e184f8a30ec130a2f3d7a9c5b1dbb2708626c5b7e39664c5518e446c864635e7";
-			shellScript = "";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		612C8FD1193F8156009DEDCC /* Sources */ = {
@@ -979,6 +967,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Terry Perciante (T7TBP7XHVC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Terry Perciante (T7TBP7XHVC)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/**",
@@ -986,7 +976,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wheaton Orientation/Wheaton Orientation-Prefix.pch";
 				INFOPLIST_FILE = "Wheaton Orientation/Wheaton Orientation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = Orientation;
+				PROVISIONING_PROFILE = "2901B328-DFAB-4778-8186-9D496CFA4324";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -996,11 +988,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Terry Perciante (T7TBP7XHVC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Terry Perciante (T7TBP7XHVC)";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wheaton Orientation/Wheaton Orientation-Prefix.pch";
 				INFOPLIST_FILE = "Wheaton Orientation/Wheaton Orientation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = Orientation;
+				PROVISIONING_PROFILE = "2901B328-DFAB-4778-8186-9D496CFA4324";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

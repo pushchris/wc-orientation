@@ -22,7 +22,7 @@
     [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x00447c)];
     [application setStatusBarStyle:UIStatusBarStyleLightContent];
     
-    [Crashlytics startWithAPIKey:CRASHLYTICS];
+//    [Crashlytics startWithAPIKey:CRASHLYTICS];
     
     [MTReachabilityManager sharedManager];
     
