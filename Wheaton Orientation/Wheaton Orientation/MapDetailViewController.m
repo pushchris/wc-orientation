@@ -111,13 +111,13 @@ static NSString *cellIdentifier = @"AutoTableViewCell";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
     AutoTableViewCell *cell = (AutoTableViewCell *)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (cell == nil) {
         NSArray *nib = [[NSBundle mainBundle] loadNibNamed:cellIdentifier owner:nil options:nil];
         cell = [nib objectAtIndex:0];
     }
     [cell updateFonts];
+    [cell setUserInteractionEnabled:NO];
     
     cell.bodyLabel.text = (NSString *)[[buildingTable objectAtIndex: indexPath.section] objectAtIndex:indexPath.row];
     
