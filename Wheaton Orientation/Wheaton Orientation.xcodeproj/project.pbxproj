@@ -967,8 +967,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Terry Perciante (T7TBP7XHVC)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Terry Perciante (T7TBP7XHVC)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Anderson (J5M43YTT72)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chris Anderson (J5M43YTT72)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/**",
@@ -978,7 +978,7 @@
 				INFOPLIST_FILE = "Wheaton Orientation/Wheaton Orientation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = Orientation;
-				PROVISIONING_PROFILE = "2901B328-DFAB-4778-8186-9D496CFA4324";
+				PROVISIONING_PROFILE = "8178D711-2D3F-4BCC-8246-2CC1AA403A6D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -988,15 +988,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Terry Perciante (T7TBP7XHVC)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Terry Perciante (T7TBP7XHVC)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Anderson (J5M43YTT72)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chris Anderson (J5M43YTT72)";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wheaton Orientation/Wheaton Orientation-Prefix.pch";
 				INFOPLIST_FILE = "Wheaton Orientation/Wheaton Orientation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = Orientation;
-				PROVISIONING_PROFILE = "2901B328-DFAB-4778-8186-9D496CFA4324";
+				PROVISIONING_PROFILE = "8178D711-2D3F-4BCC-8246-2CC1AA403A6D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

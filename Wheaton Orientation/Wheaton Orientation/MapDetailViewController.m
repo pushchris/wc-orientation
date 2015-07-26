@@ -55,8 +55,8 @@ static NSString *cellIdentifier = @"AutoTableViewCell";
     
     NSMutableArray *descriptionSection = [[NSMutableArray alloc] init];
     
-    if (!(building.description == (id)[NSNull null] || building.description.length == 0)) {
-        [descriptionSection addObject:building.description];
+    if (!(building.summary == (id)[NSNull null] || building.summary.length == 0)) {
+        [descriptionSection addObject:building.summary];
         [buildingTable addObject:descriptionSection];
     }
     

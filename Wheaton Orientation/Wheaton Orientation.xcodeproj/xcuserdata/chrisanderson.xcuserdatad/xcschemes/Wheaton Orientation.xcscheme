@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "612C8FD4193F8156009DEDCC"
-               BuildableName = "Wheaton Orientation.app"
+               BuildableName = "Orientation.app"
                BlueprintName = "Wheaton Orientation"
                ReferencedContainer = "container:Wheaton Orientation.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "612C8FD4193F8156009DEDCC"
-            BuildableName = "Wheaton Orientation.app"
+            BuildableName = "Orientation.app"
             BlueprintName = "Wheaton Orientation"
             ReferencedContainer = "container:Wheaton Orientation.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "612C8FD4193F8156009DEDCC"
-            BuildableName = "Wheaton Orientation.app"
+            BuildableName = "Orientation.app"
             BlueprintName = "Wheaton Orientation"
             ReferencedContainer = "container:Wheaton Orientation.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "612C8FD4193F8156009DEDCC"
-            BuildableName = "Wheaton Orientation.app"
+            BuildableName = "Orientation.app"
             BlueprintName = "Wheaton Orientation"
             ReferencedContainer = "container:Wheaton Orientation.xcodeproj">
          </BuildableReference>

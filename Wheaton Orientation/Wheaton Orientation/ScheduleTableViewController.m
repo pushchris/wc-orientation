@@ -79,6 +79,7 @@ static NSString *cellIdentifier = @"EventAutoTableViewCell";
     // parse out the json data
     NSError *error;
     NSDictionary *schedule = [NSJSONSerialization JSONObjectWithData:responseData options:kNilOptions error:&error];
+    
     if (self.tableView.tag == 1) {
         eventResults  = [schedule objectForKey:@"transfers"];
     } else if (self.tableView.tag == 2) {

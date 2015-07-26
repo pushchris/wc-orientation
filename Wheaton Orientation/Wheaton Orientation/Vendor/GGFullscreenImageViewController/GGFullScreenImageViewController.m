@@ -12,25 +12,6 @@
 
 static const double kAnimationDuration = 0.3;
 
-static inline GGOrientation convertOrientation(UIInterfaceOrientation orientation) {
-    switch (orientation) {
-        case UIInterfaceOrientationPortrait:
-            return GGOrientationPortrait;
-            break;
-        case UIInterfaceOrientationLandscapeLeft:
-            return GGOrientationLandscapeLeft;
-            break;
-        case UIInterfaceOrientationPortraitUpsideDown:
-            return GGOrientationPortraitUpsideDown;
-            break;
-        case UIInterfaceOrientationLandscapeRight:
-            return GGOrientationLandscapeRight;
-            break;
-        default:
-            break;
-    }
-}
-
 @interface GGFullscreenImageViewController () <UIScrollViewDelegate>
 
 @property (nonatomic, strong) UIScrollView *scrollView;
